@@ -1,0 +1,39 @@
+.cover_card {
+    height: 20vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #ffdd94;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.cover_card:hover {
+    transform: scale(1.05);
+}
+
+.cover_card_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.cover_card_title {
+    top: 0;
+    position: absolute;
+    color: #000;
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    width: 80vw;
+    border-radius: 10px;
+}

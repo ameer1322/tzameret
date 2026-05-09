@@ -7,6 +7,7 @@ function Home() {
     return (
         <>
             <Header />
+            <h3 className="welcome">ברוכים הבאים לאתר של צמרת</h3>
 
         </>
     )

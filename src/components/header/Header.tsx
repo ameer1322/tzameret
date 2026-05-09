@@ -5,10 +5,10 @@ import './Header.css'
 function Header() {
     return (
         <>
-            <div className="header">
-                <div>
+            <div id="header">
+                <div id="header_content">
                     <img id="logo" src={logo} alt="logo" />
-                    <h3 className="phone_number">050-550-5889 :טלפון</h3>
+                    <h3 id="phone_number">050-550-5889 :טלפון</h3>
                 </div>
             </div>
         </>

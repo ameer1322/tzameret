@@ -1,8 +1,9 @@
-import "./WoodSuite.css"
+import "../SuitePage.css"
 import Header from "../../components/header/Header"
 import ImageCarousel from "../../components/image_carousel/ImageCarousel"
 import Maps from "../../components/maps/maps"
 import SuiteInfo from "../../components/suite_info/SuiteInfo"
+import Prices from "../../components/prices/Prices"
 
 const imageModules = import.meta.glob("../../assets/images/wood_suite_images/*.jpg", { eager: true })
 const images = Object.values(imageModules).map((module: any) => module.default)
@@ -52,7 +53,12 @@ function WoodSuite() {
             <h1 className='wood-suite-title'>סויטת עץ</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
-                <Maps />
+                <div className="suite-sidebar">
+                    <Maps />
+                    <Prices rows={[
+                        { type: 'אמצ"ש החל', price: "₪699" },
+                        { type: 'סופ"ש החל', price: "₪749" }]} />
+                </div>
             </div>
             <SuiteInfo {...suiteInfoData} />
 

@@ -1,4 +1,4 @@
-.stone-suite-title {
+.suite-title {
     font-family: 'Playfair Display', serif;
     font-size: clamp(1.8rem, 4vw, 3rem);
     color: #5a3e28;
@@ -7,7 +7,7 @@
     font-weight: 400;
 }
 
-.stone-suite-subtitle {
+.suite-subtitle {
     text-align: center;
     color: #9a7a5a;
     font-size: 1rem;
@@ -24,9 +24,20 @@
     margin: 0 auto;
 }
 
+.suite-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+}
+
 @media (max-width: 768px) {
     .suite-content {
         flex-direction: column;
+        padding: 0rem;
+    }
+
+    .suite-sidebar {
         padding: 1rem;
     }
 }

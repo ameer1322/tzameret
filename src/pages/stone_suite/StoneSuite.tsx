@@ -2,7 +2,8 @@ import Header from '../../components/header/Header'
 import ImageCarousel from '../../components/image_carousel/ImageCarousel'
 import Maps from '../../components/maps/maps'
 import SuiteInfo from '../../components/suite_info/SuiteInfo'
-import './StoneSuite.css'
+import Prices from '../../components/prices/Prices'
+import '../SuitePage.css'
 
 const imageModules = import.meta.glob("../../assets/images/stone_suite_images/*.jpg", { eager: true })
 const images = Object.values(imageModules).map((module: any) => module.default)
@@ -47,10 +48,15 @@ function StoneSuite() {
     return (
         <>
             <Header />
-            <h1 className='stone-suite-title'>סויטת אבן</h1>
+            <h1 className='suite-title'>סויטת אבן</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
-                <Maps />
+                <div className="suite-sidebar">
+                    <Maps />
+                    <Prices rows={[
+                        { type: 'אמצ"ש החל', price: "₪699" },
+                        { type: 'סופ"ש החל', price: "₪749" }]} />
+                </div>
             </div>
             <SuiteInfo {...suiteInfoData} />
 

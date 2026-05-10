@@ -4,10 +4,10 @@ import ImageCarousel from "../../components/image_carousel/ImageCarousel"
 import Maps from "../../components/maps/maps"
 import SuiteInfo from "../../components/suite_info/SuiteInfo"
 import Prices from "../../components/prices/Prices"
+import WhatsappButton from "../../components/whatsapp_button/WhatsappButton"
 
 const imageModules = import.meta.glob("../../assets/images/wood_suite_images/*.jpg", { eager: true })
 const images = Object.values(imageModules).map((module: any) => module.default)
-
 
 const suiteInfoData = {
     location: "אזור מישור החוף, דלית אל כרמל",
@@ -45,6 +45,7 @@ const suiteInfoData = {
     `
 }
 
+const whatsappLink = "https://wa.me/972525338813?text=שלום%20רציתי%20לברר%20פרטים%20על%20סויטת%20עץ"
 
 function WoodSuite() {
     return (
@@ -58,6 +59,7 @@ function WoodSuite() {
                     <Prices rows={[
                         { type: 'אמצ"ש החל', price: "₪699" },
                         { type: 'סופ"ש החל', price: "₪749" }]} />
+                    <WhatsappButton link={whatsappLink} />
                 </div>
             </div>
             <SuiteInfo {...suiteInfoData} />

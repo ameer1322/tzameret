@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import './Home.css'
 import Header from '../../components/header/Header'
 import CoverCard from '../../components/cover_card/CoverCard'

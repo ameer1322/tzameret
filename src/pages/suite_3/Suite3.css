@@ -1,0 +1,20 @@
+.suite-content {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .suite-content {
+        flex-direction: column;
+    }
+}
+
+
+.suite-3-title {
+    font-size: 4vw;
+    color: #000;
+    margin: 20px auto;
+    text-align: center;
+}

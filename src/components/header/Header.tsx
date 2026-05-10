@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import logo from '../../assets/images/logo.jpg'
+import logo from '../../assets/images/Logo.jpg'
 import './Header.css'
 
 

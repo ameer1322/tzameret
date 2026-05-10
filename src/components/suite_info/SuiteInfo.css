@@ -1,0 +1,36 @@
+.suite-info {
+    margin: 0;
+    margin-left: auto;
+    direction: rtl;
+    width: 100%;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+    border: #222 solid 1px;
+
+    /* margin-left: 2vw; */
+}
+
+.suite-info-row {
+    display: flex;
+    gap: 8px;
+    font-size: 15px;
+}
+
+.suite-info-label {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+    background-color: #A67850;
+    color: #f5ede0;
+    min-width: 120px;
+}
+
+.suite-info-value {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    font-weight: 500;
+}

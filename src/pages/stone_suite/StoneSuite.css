@@ -10,3 +10,10 @@
         flex-direction: column;
     }
 }
+
+.stone-suite-title {
+    font-size: 4vw;
+    color: #000;
+    margin: 20px auto;
+    text-align: center;
+}

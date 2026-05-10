@@ -47,7 +47,7 @@ function Suite3() {
     return (
         <>
             <Header />
-            <h1>Suite 3</h1>
+            <h1 className='suite-3-title'>סויטה מס' 3</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
                 <Maps />

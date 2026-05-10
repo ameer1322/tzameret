@@ -49,7 +49,7 @@ function WoodSuite() {
     return (
         <>
             <Header />
-            <h1>Wood Suite</h1>
+            <h1 className='wood-suite-title'>סויטת עץ</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
                 <Maps />

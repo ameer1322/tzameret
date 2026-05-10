@@ -8,3 +8,10 @@ body {
     background-color: #ffdd94;
     padding-bottom: 60px;
 }
+
+.welcome {
+    font-size: 4vw;
+    color: #000;
+    margin: 20px auto;
+    text-align: center;
+}

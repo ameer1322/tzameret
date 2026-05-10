@@ -10,3 +10,10 @@
         flex-direction: column;
     }
 }
+
+.suite-1-2-title {
+    font-size: 4vw;
+    color: #000;
+    margin: 20px auto;
+    text-align: center;
+}

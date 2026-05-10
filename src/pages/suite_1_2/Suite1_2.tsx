@@ -47,7 +47,7 @@ function Suite1_2() {
     return (
         <>
             <Header />
-            <h1>Suite 1+2</h1>
+            <h1 className='suite-1-2-title'>סויטות מס' 1+2</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
                 <Maps />

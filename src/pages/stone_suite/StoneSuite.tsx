@@ -47,7 +47,7 @@ function StoneSuite() {
     return (
         <>
             <Header />
-            <h1>Stone Suite</h1>
+            <h1 className='stone-suite-title'>סויטת אבן</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
                 <Maps />

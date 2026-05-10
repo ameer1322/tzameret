@@ -11,7 +11,7 @@ function Header() {
                 <div className="header_content">
                     <img className="logo" src={logo} alt="logo" />
                     <a href="tel:052-533-8813">
-                        <h3 className="phone_number">052-533-8813 :טלפון</h3>
+                        <h3 className="phone_number">טלפון: 052-533-8813</h3>
                     </a>
                 </div>
             </div>

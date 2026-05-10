@@ -33,8 +33,8 @@ function ImageCarousel({ images }: ImageCarouselProps) {
                 onTouchEnd={handleTouchEnd}
             >
                 <img className="carousel-image" src={images[currentImageIndex]} alt="carousel" />
-                <button className="carousel-button left" onClick={() => move(-1)}>{"<"}</button>
-                <button className="carousel-button right" onClick={() => move(1)}>{">"}</button>
+                <button className="carousel-button left" onClick={() => move(1)}>{">"}</button>
+                <button className="carousel-button right" onClick={() => move(-1)}>{"<"}</button>
                 <span className="carousel-counter">{currentImageIndex + 1} / {images.length}</span>
             </div>
             <div className="carousel-dots">

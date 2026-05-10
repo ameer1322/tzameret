@@ -22,7 +22,7 @@ function ImageCarousel({ images }: ImageCarouselProps) {
     const handleTouchEnd = (e: React.TouchEvent) => {
         if (touchStartX.current === null) return
         const diff = touchStartX.current - e.changedTouches[0].clientX
-        if (Math.abs(diff) > 50) move(diff > 0 ? 1 : -1)
+        if (Math.abs(diff) > 50) move(diff < 0 ? 1 : -1)
         touchStartX.current = null
     }
 

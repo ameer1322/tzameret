@@ -1,0 +1,12 @@
+.suite-content {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .suite-content {
+        flex-direction: column;
+    }
+}

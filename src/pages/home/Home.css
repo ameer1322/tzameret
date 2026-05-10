@@ -1,17 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #ffdd94;
-    padding-bottom: 60px;
-}
-
 .welcome {
-    font-size: 4vw;
-    color: #000;
-    margin: 20px auto;
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.4rem, 3.5vw, 2.4rem);
+    color: #5a3e28;
+    margin: 2.5rem auto 0.5rem;
     text-align: center;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+
+.welcome-sub {
+    text-align: center;
+    color: #9a7a5a;
+    font-size: clamp(0.9rem, 1.8vw, 1.1rem);
+    margin-bottom: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.covers-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 1200px;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .covers-grid {
+        grid-template-columns: 1fr;
+    }
 }

@@ -1,19 +1,32 @@
+.stone-suite-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    color: #5a3e28;
+    margin: 2rem auto 0.25rem;
+    text-align: center;
+    font-weight: 400;
+}
+
+.stone-suite-subtitle {
+    text-align: center;
+    color: #9a7a5a;
+    font-size: 1rem;
+    margin-bottom: 0;
+    letter-spacing: 0.08em;
+}
+
 .suite-content {
     display: flex;
     gap: 24px;
     align-items: flex-start;
     padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 @media (max-width: 768px) {
     .suite-content {
         flex-direction: column;
+        padding: 1rem;
     }
-}
-
-.stone-suite-title {
-    font-size: 4vw;
-    color: #000;
-    margin: 20px auto;
-    text-align: center;
 }

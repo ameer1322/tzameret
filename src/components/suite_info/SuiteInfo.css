@@ -1,36 +1,50 @@
 .suite-info {
-    margin: 0;
-    margin-left: auto;
     direction: rtl;
-    width: 100%;
-    max-width: 80vw;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 1rem;
-    border: #222 solid 1px;
-
-    /* margin-left: 2vw; */
+    width: 90vw;
+    max-width: 900px;
+    margin: 2rem auto;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #e0c9a8;
 }
 
 .suite-info-row {
     display: flex;
-    gap: 8px;
+    align-items: baseline;
+    gap: 0;
     font-size: 15px;
+    border-bottom: 1px solid #eddfc8;
+}
+
+.suite-info-row:last-child {
+    border-bottom: none;
+}
+
+.suite-info-row:nth-child(even) {
+    background-color: #fdf6ec;
+}
+
+.suite-info-row:nth-child(odd) {
+    background-color: #fff9f3;
 }
 
 .suite-info-label {
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 4px;
-    background-color: #A67850;
-    color: #f5ede0;
-    min-width: 120px;
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.75rem 1.1rem;
+    background-color: #a67850;
+    color: #fff8f0;
+    min-width: 130px;
+    letter-spacing: 0.02em;
 }
 
 .suite-info-value {
-    font-size: large;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #222;
-    font-weight: 500;
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.95rem;
+    color: #4a3320;
+    font-weight: 400;
+    padding: 0.75rem 1rem;
+    white-space: pre-line;
+    line-height: 1.7;
 }

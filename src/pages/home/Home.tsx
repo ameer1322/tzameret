@@ -9,7 +9,8 @@ function Home() {
     return (
         <>
             <Header />
-            <h3 className="welcome">ברוכים הבאים לאתר של צמרת</h3>
+            <h3 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
+            <p className="welcome-sub">בחרו את הסויטה שלכם</p>
             <CoverCard imgSrc={StoneSuiteCover} cover_name="סויטת אבן" route="/stone-suite" />
             <CoverCard imgSrc={WoodSuiteCover} cover_name="סויטת עץ" route="/wood-suite" />
             <CoverCard imgSrc={Suite1Suite2Cover} cover_name="סויטות 1+2" route="/suite1-2" />

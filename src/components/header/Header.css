@@ -1,33 +1,40 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .header {
     width: 100%;
-    max-height: 30vh;
     background-color: #ffffff;
+    border-bottom: 1px solid #e8d5bc;
     display: flex;
     justify-content: center;
     cursor: pointer;
+    padding: 1rem 0;
+    transition: background-color 0.2s;
 }
 
+
+
 .header_content {
-    width: 80%;
+    width: 90%;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .logo {
-    width: 70%;
-    max-width: max-content;
-    max-height: 20vh;
+    max-height: 18vh;
+    width: auto;
+    max-width: 280px;
 }
 
 .phone_number {
-    font-size: 4vw;
-    color: #000;
-    margin-top: 10px;
+    font-family: 'Assistant', sans-serif;
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    color: #7a5530;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+}
+
+.phone_number:hover {
+    color: #5a3e28;
 }

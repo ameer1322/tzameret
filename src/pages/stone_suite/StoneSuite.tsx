@@ -54,11 +54,7 @@ function StoneSuite() {
                 <ImageCarousel images={images} />
                 <div className="suite-sidebar">
                     <Maps />
-                    <Prices rows={[
-                        { type: 'אמצ"ש בהזמנת לילה', price: "₪749" },
-                        { type: 'אמצ"ש בהזמנת שתי לילות', price: "₪699" },
-                        { type: 'סופ"ש בהזמנת לילה', price: "₪799" },
-                        { type: 'סופ"ש בהזמנת שתי לילות', price: "₪749" }]} />
+                    <Prices />
                     <WhatsappButton link={whatsappLink} />
                 </div>
             </div>

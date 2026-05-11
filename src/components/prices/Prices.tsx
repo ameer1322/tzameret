@@ -5,11 +5,15 @@ interface PriceRow {
     price: string
 }
 
-interface PricesProps {
-    rows: PriceRow[]
-}
 
-function Prices({ rows }: PricesProps) {
+
+const suite_prices: PriceRow[] = [{ type: 'אמצ"ש בהזמנת לילה', price: "₪749" },
+{ type: 'אמצ"ש בהזמנת שתי לילות', price: "₪699" },
+{ type: 'סופ"ש בהזמנת לילה', price: "₪799" },
+{ type: 'סופ"ש בהזמנת שתי לילות', price: "₪749" }
+]
+
+function Prices() {
     return (
         <div className="prices-wrapper">
             <div className="prices-title">מחירון</div>
@@ -21,7 +25,7 @@ function Prices({ rows }: PricesProps) {
                     </tr>
                 </thead>
                 <tbody>
-                    {rows.map((row, index) => (
+                    {suite_prices.map((row, index) => (
                         <tr key={index}>
                             <td>{row.type}</td>
                             <td>{row.price}</td>

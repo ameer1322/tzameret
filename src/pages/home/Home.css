@@ -38,6 +38,10 @@
     /* gives hover room */
 }
 
+.cover_card_container {
+    width: 47%;
+}
+
 @media (max-width: 768px) {
     .covers-grid {
         grid-template-columns: 1fr;
@@ -47,5 +51,14 @@
         width: 100%;
         padding: 0.5rem;
         display: block;
+    }
+
+    .cover_card_container {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .cover_card_info {
+        display: none;
     }
 }

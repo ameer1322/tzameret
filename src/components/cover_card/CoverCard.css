@@ -10,7 +10,7 @@
 }
 
 .cover_card {
-    width: 45%;
+    width: 100%;
     aspect-ratio: 16 / 9;
     position: relative;
     border-radius: 14px;
@@ -69,7 +69,4 @@
         grid-template-columns: 1fr;
     }
 
-    .cover_card {
-        width: 100%;
-    }
 }

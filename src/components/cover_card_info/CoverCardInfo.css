@@ -1,1 +1,50 @@
-.
+.cover-card-info {
+    direction: rtl;
+    width: 90vw;
+    max-width: 900px;
+    margin: 2rem auto;
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid #e0c9a8;
+}
+
+.cover-card-info-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0;
+    font-size: 15px;
+    border-bottom: 1px solid #eddfc8;
+}
+
+.cover-card-info-row:last-child {
+    border-bottom: none;
+}
+
+.cover-card-info-row:nth-child(even) {
+    background-color: #fdf6ec;
+}
+
+.cover-card-info-row:nth-child(odd) {
+    background-color: #fff9f3;
+}
+
+.cover-card-info-label {
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.75rem 1.1rem;
+    background-color: #a67850;
+    color: #fff8f0;
+    min-width: 130px;
+    letter-spacing: 0.02em;
+}
+
+.cover-card-info-value {
+    font-family: 'Assistant', sans-serif;
+    font-size: 0.95rem;
+    color: #4a3320;
+    font-weight: 400;
+    padding: 0.75rem 1rem;
+    white-space: pre-line;
+    line-height: 1.7;
+}

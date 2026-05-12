@@ -63,3 +63,13 @@
     text-align: right;
     letter-spacing: 0.02em;
 }
+
+@media (max-width: 768px) {
+    .covers-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cover_card {
+        width: 100%;
+    }
+}

@@ -42,4 +42,9 @@
     .covers-grid {
         grid-template-columns: 1fr;
     }
+
+    .cover_cards_container {
+        width: 100%;
+        padding: 0.5rem;
+    }
 }

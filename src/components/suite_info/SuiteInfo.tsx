@@ -1,21 +1,26 @@
 import "./SuiteInfo.css"
 
-interface SuiteInfoProps {
-    location: string
-    guests: string
-    pool: string
-    general_info: string
-    parking: string
-    garden_info: string
-    view: string
-    internet: string
-    notes: string
+
+interface SuiteInfoRow {
+    label: string
+    value: string
 }
 
-function SuiteInfo({ location, guests, pool, general_info, parking, garden_info, view, internet, notes }: SuiteInfoProps) {
+interface SuiteInfoProps {
+    info: SuiteInfoRow[]
+}
+
+function SuiteInfo({ info }: SuiteInfoProps) {
     return (
         <div className="suite-info">
-            <div className="suite-info-row">
+            {info.map((row, index) => (
+                <div key={index} className="suite-info-row">
+                    <span className="suite-info-label">{row.label}</span>
+                    <span className="suite-info-value">{row.value}</span>
+                </div>
+            ))}
+
+            {/* <div className="suite-info-row">
                 <span className="suite-info-label">מיקום</span>
                 <span className="suite-info-value">{location}</span>
             </div>
@@ -50,7 +55,7 @@ function SuiteInfo({ location, guests, pool, general_info, parking, garden_info,
             <div className="suite-info-row">
                 <span className="suite-info-label">הערות</span>
                 <span className="suite-info-value">{notes}</span>
-            </div>
+            </div> */}
         </div>
     )
 }

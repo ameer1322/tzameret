@@ -11,10 +11,12 @@ function Home() {
             <Header />
             <h3 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
             <p className="welcome-sub">בחרו את הסויטה שלכם</p>
-            <CoverCard imgSrc={StoneSuiteCover} cover_name="סויטת אבן" route="/stone-suite" />
-            <CoverCard imgSrc={WoodSuiteCover} cover_name="סויטת עץ" route="/wood-suite" />
-            <CoverCard imgSrc={Suite1Suite2Cover} cover_name="סויטות 1+2" route="/suite1-2" />
-            <CoverCard imgSrc={Suite3Cover} cover_name="סויטה 3" route="/suite3" />
+            <div className="cover_cards_container">
+                <CoverCard imgSrc={StoneSuiteCover} cover_name="סויטת אבן" route="/stone-suite" />
+                <CoverCard imgSrc={WoodSuiteCover} cover_name="סויטת עץ" route="/wood-suite" />
+                <CoverCard imgSrc={Suite1Suite2Cover} cover_name="סויטת 1+2" route="/suite1-2" />
+                <CoverCard imgSrc={Suite3Cover} cover_name="סויטת 3" route="/suite3" />
+            </div>
         </>
     )
 }

@@ -62,6 +62,8 @@ const suiteInfoData = {
     `}
     ]
 }
+
+
 const whatsappLink = "https://wa.me/972525338813?text=שלום%20רציתי%20לברר%20פרטים%20על%20סויטת%20עץ"
 
 function WoodSuite() {

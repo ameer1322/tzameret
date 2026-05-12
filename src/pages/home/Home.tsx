@@ -11,12 +11,6 @@ import WoodCoverInfo from '../../assets/cover_card_info/WoodSuiteCoverInfo'
 import Suite1Suite2CoverInfo from '../../assets/cover_card_info/Suite1-2CoverInfo'
 import Suite3CoverInfo from '../../assets/cover_card_info/Suite3CoverInfo'
 
-const cover_info = {
-    info: [
-        { label: "סויטת אבן", value: "סויטת אבן היא סויטה רומנטית ומיוחדת, עם עיצוב ייחודי המשלב בין אבן לעץ, ועם נוף גלילי מרהיב. הסויטה כוללת ג'קוזי זוגי עם נוף, מטבחון מאובזר, פינת אוכל, מרפסת פרטית ובריכת שחייה מחוממת ומקורה." }
-    ]
-}
-
 function Home() {
     return (
         <>

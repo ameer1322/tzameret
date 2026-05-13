@@ -10,7 +10,7 @@
 }
 
 .cover_card {
-    width: 97%;
+    width: 100%;
     aspect-ratio: 16 / 9;
     position: relative;
     border-radius: 14px;
@@ -26,6 +26,8 @@
     transform: translateY(-4px) scale(1.02);
     box-shadow: 0 12px 36px rgba(90, 62, 40, 0.25);
 }
+
+
 
 .cover_card_img {
     width: 100%;
@@ -60,4 +62,11 @@
     color: #fff;
     text-align: right;
     letter-spacing: 0.02em;
+}
+
+@media (max-width: 768px) {
+    .covers-grid {
+        grid-template-columns: 1fr;
+    }
+
 }

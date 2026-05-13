@@ -1,4 +1,4 @@
-.image-carousel {
+.home-image-carousel {
     width: 90vw;
     max-width: 1200px;
 }
@@ -96,9 +96,8 @@
 }
 
 @media (max-width: 768px) {
-    .image-carousel {
+    .home-image-carousel {
         width: 100vw;
-        margin-left: calc(-2rem);
     }
 
     .carousel-button {

@@ -27,7 +27,7 @@ function ImageCarousel({ images }: ImageCarouselProps) {
     }
 
     return (
-        <div className="image-carousel">
+        <div className="home-image-carousel">
             <div className="carousel-track"
                 onTouchStart={handleTouchStart}
                 onTouchEnd={handleTouchEnd}

@@ -25,7 +25,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="cover_card_container">
-                    <CoverCard imgSrc={WoodSuiteCover} cover_name="סויטת עץ" route="/wood-suite" />
+                    <CoverCard imgSrc={WoodSuiteCover} cover_name="סויטת עץ משולב" route="/wood-suite" />
                     <div className="cover_card_info">
                         <CoverCardInfo info={WoodCoverInfo.info} />
                     </div>

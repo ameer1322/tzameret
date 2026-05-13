@@ -6,6 +6,8 @@ import SuiteInfo from "../../components/suite_info/SuiteInfo"
 import Prices from "../../components/prices/Prices"
 import WhatsappButton from "../../components/whatsapp_button/WhatsappButton"
 import SuiteInfoData from "../../assets/suite_info/Suite3Info"
+import SuiteNotes from "../../components/suite_notes/SuiteNotes"
+import suite_notes from "../../assets/suite_notes/suite_notes"
 const imageModules = import.meta.glob("../../assets/images/suite_3_images/*.jpg", { eager: true })
 const images = Object.values(imageModules).map((module: any) => module.default)
 
@@ -28,6 +30,8 @@ function Suite3() {
 
                 </div>
             </div>
+            <SuiteNotes notes={suite_notes} />
+
             <SuiteInfo {...suiteInfoData} />
 
 

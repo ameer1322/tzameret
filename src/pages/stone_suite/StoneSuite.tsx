@@ -7,7 +7,7 @@ import '../SuitePage.css'
 import WhatsappButton from '../../components/whatsapp_button/WhatsappButton'
 import SuiteInfoData from '../../assets/suite_info/StoneSuiteInfo'
 import SuiteNotes from '../../components/suite_notes/SuiteNotes'
-import suite_notes from '../../assets/suite_notes/SuiteNotes'
+import suite_notes from '../../assets/suite_notes/suite_notes'
 const imageModules = import.meta.glob("../../assets/images/stone_suite_images/*.jpg", { eager: true })
 const images = Object.values(imageModules).map((module: any) => module.default)
 

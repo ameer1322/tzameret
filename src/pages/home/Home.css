@@ -35,6 +35,8 @@
     width: 90vw;
     margin: 0 auto;
     padding: 1rem;
+    max-width: 1200px;
+    /* Optional: limits the width on larger screens */
     /* gives hover room */
 }
 

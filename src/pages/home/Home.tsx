@@ -10,13 +10,19 @@ import StoneCoverInfo from '../../assets/cover_card_info/StoneSuiteCoverInfo'
 import WoodCoverInfo from '../../assets/cover_card_info/WoodSuiteCoverInfo'
 import Suite1Suite2CoverInfo from '../../assets/cover_card_info/Suite1-2CoverInfo'
 import Suite3CoverInfo from '../../assets/cover_card_info/Suite3CoverInfo'
+import ImageCarousel from '../../components/home_page_carousel/HomePageCarousel'
+const imageModulesLower = import.meta.glob("../../assets/images/lower_area_general/*.jpg", { eager: true })
+const general_lower_images = Object.values(imageModulesLower).map((module: any) => module.default)
+const imageModulesUpper = import.meta.glob("../../assets/images/upper_area_general/*.jpg", { eager: true })
+const general_upper_images = Object.values(imageModulesUpper).map((module: any) => module.default)
 
 function Home() {
     return (
         <>
             <Header />
             <h3 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
-            <p className="welcome-sub">בחרו את הסויטה שלכם</p>
+            <h3 className="welcome">מתחם עליון</h3>
+            <ImageCarousel images={general_upper_images} />
             <div className="cover_cards_container">
                 <div className="cover_card_container">
                     <CoverCard imgSrc={StoneSuiteCover} cover_name="סויטת אבן" route="/stone-suite" />
@@ -30,6 +36,11 @@ function Home() {
                         <CoverCardInfo info={WoodCoverInfo.info} />
                     </div>
                 </div>
+            </div>
+
+            <h3 className="welcome">מתחם תחתון</h3>
+            <ImageCarousel images={general_lower_images} />
+            <div className="cover_cards_container">
                 <div className="cover_card_container">
                     <CoverCard imgSrc={Suite1Suite2Cover} cover_name="סויטות 1+2" route="/suite1-2" />
                     <div className="cover_card_info">
@@ -42,7 +53,8 @@ function Home() {
                         <CoverCardInfo info={Suite3CoverInfo.info} />
                     </div>
                 </div>
-            </div>
+            </div >
+
         </>
     )
 }

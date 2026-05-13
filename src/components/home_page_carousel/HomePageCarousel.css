@@ -1,6 +1,6 @@
 .image-carousel {
-    width: 90%;
-    margin: auto;
+    width: 90vw;
+    max-width: 1200px;
 }
 
 .carousel-track {

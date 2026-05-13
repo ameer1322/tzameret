@@ -10,3 +10,34 @@
 .footer-content {
     margin-top: 20px;
 }
+
+.facebook-icon-footer {
+    width: 40px;
+    height: 40px;
+    fill: #333;
+    transition: fill 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.whatsapp-icon-footer {
+    margin-top: -10px;
+    width: 60px;
+    height: 55px;
+    fill: #333;
+    transition: fill 0.3s ease;
+}
+
+.instagram-icon-footer {
+    width: 45px;
+    height: 45px;
+    fill: #333;
+    transition: fill 0.3s ease;
+    margin-bottom: 6px;
+}
+
+.contact-link {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}

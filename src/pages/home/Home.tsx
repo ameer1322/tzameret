@@ -11,7 +11,7 @@ import WoodCoverInfo from '../../assets/cover_card_info/WoodSuiteCoverInfo'
 import Suite1Suite2CoverInfo from '../../assets/cover_card_info/Suite1-2CoverInfo'
 import Suite3CoverInfo from '../../assets/cover_card_info/Suite3CoverInfo'
 import ImageCarousel from '../../components/home_page_carousel/HomePageCarousel'
-import Footer from '../../components/footer/Footer'
+// import Footer from '../../components/footer/Footer'
 const imageModulesLower = import.meta.glob("../../assets/images/lower_area_general/*.jpg", { eager: true })
 const general_lower_images = Object.values(imageModulesLower).map((module: any) => module.default)
 const imageModulesUpper = import.meta.glob("../../assets/images/upper_area_general/*.jpg", { eager: true })

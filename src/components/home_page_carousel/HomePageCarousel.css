@@ -1,6 +1,7 @@
 .home-image-carousel {
     width: 90vw;
     max-width: 1200px;
+    margin: auto;
 }
 
 .carousel-track {

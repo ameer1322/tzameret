@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
     background-color: white;
     color: #333;
     text-align: center;
@@ -40,4 +40,114 @@
     text-decoration: none;
     font-size: 0.9rem;
     transition: color 0.3s ease;
+} */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap');
+
+.footer {
+    background-color: #1c1a17;
+    color: #c8b99a;
+    text-align: center;
+    padding: 2.5rem 1.5rem 2rem;
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #8b6f47, transparent);
+}
+
+.footer-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-brand {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: #e8d9c4;
+    margin: 0;
+}
+
+.footer-divider {
+    width: 32px;
+    height: 1px;
+    background: #8b6f47;
+    border: none;
+    margin: 0;
+}
+
+.footer-phone-link {
+    color: #a89070;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 300;
+    letter-spacing: 0.06em;
+    transition: color 0.25s ease;
+    direction: ltr;
+    display: inline-block;
+}
+
+.footer-phone-link:hover {
+    color: #e8d9c4;
+}
+
+.footer-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 0.25rem;
+}
+
+.footer-social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid #3a3228;
+    background: transparent;
+    transition: border-color 0.25s ease, background 0.25s ease, transform 0.2s ease;
+}
+
+.footer-social-link:hover {
+    border-color: #8b6f47;
+    background: rgba(139, 111, 71, 0.12);
+    transform: translateY(-2px);
+}
+
+.footer-social-link img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    filter: brightness(90%) invert(0.1) sepia(0.1);
+    transition: filter 0.25s ease;
+}
+
+.footer-social-link:hover img {
+    filter: brightness(100%) invert(0) sepia(0);
+}
+
+.footer-copy {
+    font-size: 0.72rem;
+    color: #5a5048;
+    letter-spacing: 0.03em;
+    margin: 0;
+    font-weight: 300;
 }

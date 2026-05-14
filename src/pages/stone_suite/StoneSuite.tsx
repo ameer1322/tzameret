@@ -19,7 +19,7 @@ function StoneSuite() {
     return (
         <>
             <Header />
-            <h1 className='suite-title'>סויטת אבן</h1>
+            <h1 className='suite-title'>סויטת אבן משולב</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />
                 <div className="suite-sidebar">

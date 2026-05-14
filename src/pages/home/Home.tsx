@@ -26,7 +26,7 @@ function Home() {
             <ImageCarousel images={general_upper_images} />
             <div className="cover_cards_container">
                 <div className="cover_card_container">
-                    <CoverCard imgSrc={StoneSuiteCover} cover_name="סויטת אבן" route="/stone-suite" />
+                    <CoverCard imgSrc={StoneSuiteCover} cover_name="סויטת אבן משולב" route="/stone-suite" />
                     <div className="cover_card_info">
                         <CoverCardInfo info={StoneCoverInfo.info} />
                     </div>

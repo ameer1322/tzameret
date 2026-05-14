@@ -8,9 +8,9 @@ interface PriceRow {
 
 
 const suite_prices: PriceRow[] = [{ type: 'אמצ"ש בהזמנת לילה', price: "₪1000" },
-{ type: 'אמצ"ש בהזמנת שתי לילות', price: "₪1000" },
+{ type: 'אמצ"ש בהזמנת שתי לילות', price: "₪10000" },
 { type: 'סופ"ש בהזמנת לילה', price: "₪1000" },
-{ type: 'סופ"ש בהזמנת שתי לילות', price: "₪1000" }
+{ type: 'סופ"ש בהזמנת שתי לילות', price: "₪10000" }
 ]
 
 function Prices() {

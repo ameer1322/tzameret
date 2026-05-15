@@ -27,14 +27,21 @@
 }
 
 .phone_number {
-    font-family: 'Assistant', sans-serif;
-    font-size: clamp(0.9rem, 2vw, 1.2rem);
-    color: #7a5530;
-    font-weight: 400;
-    letter-spacing: 0.05em;
-    text-decoration: none;
+    display: none;
 }
 
 .phone_number:hover {
     color: #5a3e28;
+}
+
+@media (min-width: 768px) {
+    .phone_number {
+        font-family: 'Assistant', sans-serif;
+        font-size: clamp(0.9rem, 2vw, 1.2rem);
+        color: #7a5530;
+        font-weight: 400;
+        letter-spacing: 0.05em;
+        text-decoration: none;
+    }
+
 }

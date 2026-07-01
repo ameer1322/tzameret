@@ -19,7 +19,6 @@ const general_upper_images = Object.values(imageModulesUpper).map((module: any) 
 function Home() {
     return (
         <>
-            <Header />
             <h3 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
             <h3 className="welcome">מתחם עליון</h3>
             <ImageCarousel images={general_upper_images} />

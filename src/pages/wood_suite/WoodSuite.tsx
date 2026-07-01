@@ -71,7 +71,6 @@ const whatsappLink = "https://wa.me/972525338813?text=שלום%20רציתי%20ל
 function WoodSuite() {
     return (
         <>
-            <Header />
             <h1 className='suite-title'>סויטת עץ משולב</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />

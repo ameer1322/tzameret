@@ -20,7 +20,6 @@ const whatsappLink = "https://wa.me/972525338813?text=שלום%20רציתי%20ל
 function Suite1_2() {
     return (
         <>
-            <Header />
             <h1 className='suite-title'>סויטות מס' 1+2</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />

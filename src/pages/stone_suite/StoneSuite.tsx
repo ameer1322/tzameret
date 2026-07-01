@@ -18,7 +18,6 @@ const whatsappLink = "https://wa.me/972525338813?text=שלום%20רציתי%20ל
 function StoneSuite() {
     return (
         <>
-            <Header />
             <h1 className='suite-title'>סויטת אבן משולב</h1>
             <div className="suite-content">
                 <ImageCarousel images={images} />

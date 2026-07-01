@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 import './App.css'
 import Home from './pages/home/Home'
@@ -27,6 +28,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      <SpeedInsights />
 
     </>
   )

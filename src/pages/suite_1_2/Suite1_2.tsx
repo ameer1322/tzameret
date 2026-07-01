@@ -1,4 +1,3 @@
-import Header from "../../components/header/Header"
 import ImageCarousel from "../../components/image_carousel/ImageCarousel"
 import Maps from "../../components/maps/maps"
 import Prices from "../../components/prices/Prices"

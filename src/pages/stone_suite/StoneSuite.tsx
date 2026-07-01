@@ -1,4 +1,3 @@
-import Header from '../../components/header/Header'
 import ImageCarousel from '../../components/image_carousel/ImageCarousel'
 import Maps from '../../components/maps/maps'
 import SuiteInfo from '../../components/suite_info/SuiteInfo'

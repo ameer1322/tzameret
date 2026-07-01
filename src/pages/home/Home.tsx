@@ -1,5 +1,4 @@
 import './Home.css'
-import Header from '../../components/header/Header'
 import CoverCard from '../../components/cover_card/CoverCard'
 import StoneSuiteCover from '../../assets/images/cover_images/stoneSuiteCover.jpg'
 import WoodSuiteCover from '../../assets/images/cover_images/woodSuiteCover.jpg'

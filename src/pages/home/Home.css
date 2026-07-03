@@ -32,6 +32,17 @@
     /* gives hover room */
 }
 
+.scroll-fade {
+    opacity: 0;
+    transform: translateX(var(--start_position));
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.scroll-fade.in-view {
+    opacity: 1;
+    transform: translateX(0);
+}
+
 .cover_card_container {
     width: 47%;
 }

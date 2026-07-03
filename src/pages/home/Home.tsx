@@ -19,11 +19,11 @@ const general_upper_images = Object.values(imageModulesUpper).map((module: any) 
 
 function Home() {
 
-    const { ref: ref1, isInView: isInView1 } = useInView(0.01)
-    const { ref: ref2, isInView: isInView2 } = useInView(0.01)
-    const { ref: ref3, isInView: isInView3 } = useInView(0.01)
+    const { ref: ref1, isInView: isInView1 } = useInView(0.2)
+    const { ref: ref2, isInView: isInView2 } = useInView(0.2)
+    const { ref: ref3, isInView: isInView3 } = useInView(0.2)
 
-    const { ref: ref4, isInView: isInView4 } = useInView(0.01)
+    const { ref: ref4, isInView: isInView4 } = useInView(0.2)
 
 
     return (

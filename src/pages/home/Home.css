@@ -36,7 +36,6 @@
     opacity: 0;
     transform: translateX(var(--start_position));
     transition: opacity 1s ease-out, transform 1s ease-out;
-    overflow: hidden;
 }
 
 .scroll-fade.in-view {

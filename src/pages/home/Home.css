@@ -1,5 +1,5 @@
 .welcome {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Arial';
     font-size: clamp(1.4rem, 3.5vw, 2.4rem);
     color: #5a3e28;
     margin: 2.5rem auto 0.5rem;

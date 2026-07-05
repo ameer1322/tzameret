@@ -29,7 +29,7 @@ function Home() {
     return (
         <>
             <h3 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
-            <h3 className="welcome">מתחם עליון</h3>
+            <h3 className="area_title">מתחם עליון</h3>
             <ImageCarousel images={general_upper_images} />
             <div className="cover_cards_container">
                 <div className={`cover_card_container scroll-fade ${isInView1 ? 'in-view' : ''}`}
@@ -50,7 +50,7 @@ function Home() {
                 </div>
             </div>
 
-            <h3 className="welcome">מתחם תחתון</h3>
+            <h3 className="area_title">מתחם תחתון</h3>
             <ImageCarousel images={general_lower_images} />
             <div className="cover_cards_container">
                 <div className={"cover_card_container scroll-fade " + (isInView3 ? 'in-view' : '')}

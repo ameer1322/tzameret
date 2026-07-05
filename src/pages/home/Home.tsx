@@ -28,7 +28,7 @@ function Home() {
 
     return (
         <>
-            <h3 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
+            <h2 className="welcome">ברוכים הבאים לאתר של צמרת הצימרים</h3>
             <h3 className="area_title">מתחם עליון</h3>
             <ImageCarousel images={general_upper_images} />
             <div className="cover_cards_container">

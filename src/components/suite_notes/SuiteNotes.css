@@ -8,9 +8,3 @@
     white-space: pre-wrap;
 }
 
-@media (max-width: 768px) {
-    .suite-notes {
-        width: 100%;
-        margin-right: 0;
-    }
-}

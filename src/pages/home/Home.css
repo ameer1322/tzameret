@@ -1,7 +1,7 @@
 .welcome {
     font-family: 'Arial';
     font-size: clamp(1.4rem, 3.5vw, 2.4rem);
-    color: #5a3e28;
+    color: black;
     margin: 2.5rem auto 0.5rem;
     text-align: center;
     font-weight: 400;
@@ -11,7 +11,7 @@
 .area_title{
     font-family: 'Arial';
     font-size: clamp(1.4rem, 3.5vw, 2.4rem);
-    color: black;
+    color: #5a3e28;
     margin: 2.5rem auto 0.5rem;
     text-align: center;
     font-weight: 400;

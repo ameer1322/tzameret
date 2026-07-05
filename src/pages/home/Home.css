@@ -76,4 +76,8 @@
     .cover_card_info {
         display: none;
     }
+    .welcome{
+        font-size: clamp(1.4rem, 3vw, 2.8rem);
+    }
+
 }

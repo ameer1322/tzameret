@@ -8,7 +8,7 @@
     letter-spacing: 0.03em;
 }
 
-.area_title{
+.area_title {
     font-family: 'Arial';
     font-size: clamp(1.4rem, 3.5vw, 2.4rem);
     color: #5a3e28;
@@ -16,7 +16,7 @@
     text-align: center;
     font-weight: 400;
     letter-spacing: 0.03em;
-    
+
 }
 
 .covers-grid {
@@ -76,7 +76,8 @@
     .cover_card_info {
         display: none;
     }
-    .welcome{
+
+    .welcome {
         font-size: clamp(1.4rem, 3vw, 2.8rem);
     }
 
